@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/js/index.js"></script>
+  <link rel="stylesheet" href="/css/index.css">
+  <title></title>
+</head>
+
+<body>
+  <div class="container">
+
+    <h3>Busqueda de Moneda</h3>
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Buscar" name="search" id="buscador">
+      <div class="input-group-btn">
+        <button class="btn btn-default btnAngel" onclick="buscarMoneda(buscador.value)"><i class="glyphicon glyphicon-search"></i></button>
+      </div>
+    </div>
+    <br>
+    <button type="button" name="button" class="btn btn-default btn-xs btn-block btnAngel" onclick="goBack()">Atrás</button>
+    <br>
+    <div id="Table">
+
+    </div>
+  </div>
+</body>
+
+</html>

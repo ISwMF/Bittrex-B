@@ -1,0 +1,15 @@
+body {
+  background-image: url("purple.jpg");
+  color: white;
+}
+
+.btnAngel {
+  background-color: #0a001a;
+}
+
+.panel-default > .panel-heading {
+  background-color: #0a001a;
+}
+.panel-body{
+  background: #140033;
+}
